@@ -43,7 +43,19 @@ td {
     background-color: #4f3222;
     text-align: center;
 }
+a:link {
+    color:#dbceb0;
+    
+}
 
-a {
+a:visited {
+    color:#dbceb0;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active{
     color:#dbceb0;
 }
