@@ -1,0 +1,25 @@
+
+p {
+    font-family: "Merriweather", serif;
+    font-size: 1em;
+    text-align: left;
+    color: black;
+}
+
+h1 {
+    font: bold, "Playfair Display", serif;
+    font-size: 2.8em;
+    transform: capitalize;
+}
+
+h3 {
+    font: bold, "Playfair Display", serif;
+    transform: capitalize;
+}
+
+body {color: blue;
+}
+
+ul {
+    font-family: "Merriweather", serif;
+}
