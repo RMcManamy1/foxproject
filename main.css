@@ -3,27 +3,43 @@ p {
     font-family: "Merriweather", serif;
     font-size: 1em;
     text-align: left;
-    color: black;
+    color: #4f3222;
+    background-color: #d4ac6e;
+}
+
+h1#logo {
+    font: bold, "Playfair Display", serif;
+    font-size: 2.8em;
+    transform: capitalize;
+    color:#dbceb0;
+    text-shadow: -5px 5px 5px lightblue;
 }
 
 h1 {
     font: bold, "Playfair Display", serif;
     font-size: 2.8em;
     transform: capitalize;
+    color:#dbceb0;
 }
 
-h3 {
+h2, h3 {
     font: bold, "Playfair Display", serif;
     transform: capitalize;
+    color: #d4ac6e;
 }
 
-body {color: blue;
+body {background-color: #8b6f47;
 }
 
-ul {
+ul, table, tr {
     font-family: "Merriweather", serif;
+    color: #bbab9b;
+    background-color: #8b6f47;
 }
 
-table, td, tr {
+td {
     font-family: "Merriweather", serif;
+    color: #bbab9b;
+    background-color: #4f3222;
+    text-align: center;
 }
