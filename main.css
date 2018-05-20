@@ -1,55 +1,77 @@
 
+main{
+    border: 2px dotted;
+    font-family: "Merriweather", serif;
+    font-size: 1em;
+    text-align: center;
+    color: #4f3222;
+    background-color: #d4ac6e;
+    
+}
+
+
 p {
     font-family: "Merriweather", serif;
     font-size: 1em;
-    text-align: left;
+    /*text-align: center; */
     color: #4f3222;
     background-color: #d4ac6e;
+    
 }
 
 h1#logo {
     font: bold, "Playfair Display", serif;
-    font-size: 2.8em;
+    font-size: 4em;
     transform: capitalize;
     color:#dbceb0;
-    text-shadow: -5px 5px 5px lightblue;
-}
-
-h1 {
-    font: bold, "Playfair Display", serif;
-    font-size: 2.8em;
-    transform: capitalize;
-    color:#dbceb0;
+    text-shadow: -5px 5px 5px #4f3222;
+    text-align: center;
 }
 
 h2, h3 {
     font: bold, "Playfair Display", serif;
     transform: capitalize;
-    color: #d4ac6e;
+    color: #4f3222;
+    border: 2px dotted;
+    background-color: #dbceb0;
+    text-align: center;
+    
 }
 
 body {background-color: #8b6f47;
+      max-width: 950px;
+      text-align: center;
+      margin: auto;
 }
 
-ul, table, tr {
+ul {
     font-family: "Merriweather", serif;
     color: #bbab9b;
     background-color: #7e4a35;
+    text-align: center;
+    border: 2px dotted;
 }
 
-td {
+thead {
+    font-size: 1.5em;
+}
+
+tr, td {
     font-family: "Merriweather", serif;
     color: #bbab9b;
     background-color: #4f3222;
     text-align: center;
+    border: 2px solid;
+
 }
+
 a:link {
-    color:#dbceb0;
+    color:#838060;
     
 }
 
 a:visited {
-    color:#dbceb0;
+    color:#838060;
 }
 
 a:hover {
@@ -57,5 +79,5 @@ a:hover {
 }
 
 a:active{
-    color:#dbceb0;
+    color:#838060;
 }
