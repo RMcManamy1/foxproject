@@ -44,6 +44,11 @@ footer {
     background-color: #d4ac6e;
 }
 
+footer::after {
+    content: url(foxicon.png);
+    
+}
+
 h1#logo {
     font: bold, "Playfair Display", serif;
     font-size: 5em;
