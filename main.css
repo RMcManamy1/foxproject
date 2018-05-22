@@ -1,14 +1,27 @@
 
-main{
+main {
     border: 2px dotted;
     font-family: "Merriweather", serif;
     font-size: 1em;
     text-align: center;
     color: #4f3222;
     background-color: #d4ac6e;
+    padding: 
     
 }
 
+figure {
+    border: 2px dotted;
+    border-top: none;
+    padding: 5px;
+    font-family: "Merriweather", serif;
+    font-size: 1em;
+    text-align: center;
+    color: #4f3222;
+    background-color: #d4ac6e;
+    max-width: 950px;
+    margin: auto;
+}
 
 p {
     font-family: "Merriweather", serif;
@@ -19,13 +32,35 @@ p {
     
 }
 
+ol {
+    text-align: left;
+}
+footer {
+    border: 2px dashed;
+    font-family: "Merriweather", serif;
+    font-size: 1em;
+    text-align: center;
+    color: #4f3222;
+    background-color: #d4ac6e;
+}
+
 h1#logo {
     font: bold, "Playfair Display", serif;
-    font-size: 4em;
+    font-size: 5em;
     transform: capitalize;
+    border: 2px dotted black;
+    border-bottom: none;
     color:#dbceb0;
     text-shadow: -5px 5px 5px #4f3222;
     text-align: center;
+    margin: auto;
+    margin-top: .5em;
+    padding: .5em;
+    background: #7e4a35; /* Old browsers */
+    background: -moz-linear-gradient(top, #7e4a35 0%, #d4ac6e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #7e4a35 0%,#d4ac6e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #7e4a35 0%,#d4ac6e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7e4a35', endColorstr='#d4ac6e',GradientType=0 ); /* IE6-9 */
 }
 
 h2, h3 {
@@ -42,7 +77,14 @@ body {background-color: #8b6f47;
       max-width: 950px;
       text-align: center;
       margin: auto;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7e4a35+0,d4ac6e+100 */
+    background: #7e4a35; /* Old browsers */
+    background: -moz-linear-gradient(top, #7e4a35 0%, #d4ac6e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #7e4a35 0%,#d4ac6e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #7e4a35 0%,#d4ac6e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7e4a35', endColorstr='#d4ac6e',GradientType=0 ); /* IE6-9 */
 }
+
 
 ul {
     font-family: "Merriweather", serif;
@@ -50,6 +92,9 @@ ul {
     background-color: #7e4a35;
     text-align: center;
     border: 2px dotted;
+    list-style-type: none;
+    font-size: 1.5em;
+    margin: 0;
 }
 
 thead {
