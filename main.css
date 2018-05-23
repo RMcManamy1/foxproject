@@ -10,6 +10,19 @@ main {
     
 }
 
+figure {
+    border: 2px dotted;
+    border-top: none;
+    padding: 5px;
+    font-family: "Merriweather", serif;
+    font-size: 1em;
+    text-align: center;
+    color: #4f3222;
+    background-color: #d4ac6e;
+    max-width: 950px;
+    margin: auto;
+}
+
 p {
     font-family: "Merriweather", serif;
     font-size: 1em;
