@@ -29,6 +29,7 @@ p {
     /*text-align: center; */
     color: #4f3222;
     background-color: #d4ac6e;
+    display: inline block;
     
 }
 
@@ -131,3 +132,118 @@ a:hover {
 a:active{
     color:#838060;
 }
+
+figure#main {
+    display: block;
+    position: relative;
+    border: none;
+    margin: auto;
+    font-style: italic;
+}
+
+figure#inline {
+    display: block;
+    position: relative;
+    border: none;
+    margin: auto;
+    font-style: italic;
+    background: white;
+    float: left;
+}
+
+figure#inline2 {
+    display: block;
+    position: relative;
+    border: none;
+    margin: auto;
+    font-style: italic;
+    background: white;
+    float: right;
+}
+
+
+cite {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-style: italic;
+    font-size: .75em;
+    background: white;
+    opacity: .6;    
+    text-align: center;
+    color: black;
+}
+
+cite#main {
+    position: absolute;
+    bottom: 1em;
+    left: 0;
+    font-style: italic;
+    font-size: .75em;
+    background: none;
+}
+/*
+cite#conservation1 {
+    float: right;
+    border: none;
+    font-style: italic;
+    position: relative;
+    font-size: .75em;
+    color: white;
+    padding: .1em;
+    background: black;
+    opacity: .6;    
+    margin-top: 31em;
+    margin-left: 28em;
+    text-align: center;
+    border: 1px solid black;
+}
+
+cite#conservation2 {
+    float: right;
+    border: none;
+    font-style: italic;
+    position: absolute;
+    font-size: .75em;
+    color: white;
+    padding: .1em;
+    background: black;
+    opacity: .6;    
+    margin-top: 25em;
+    margin-left: 5em;
+    text-align: center;
+    border: 1px solid black;
+}
+
+cite#relationship1 {
+    float: right;
+    border: none;
+    font-style: italic;
+    position: absolute;
+    font-size: .75em;
+    color: white;
+    padding: .1em;
+    background: black;
+    opacity: .6;    
+    margin-top: 36.4em;
+    margin-left: -45em;
+    text-align: center;
+    border: 1px solid black;
+    z-index: 3
+}
+cite#relationship2 {
+    float: right;
+    border: none;
+    font-style: italic;
+    position: absolute;
+    font-size: .75em;
+    color: white;
+    padding: .1em;
+    background: black;
+    opacity: .6;    
+    margin-top: 36.4em;
+    margin-left: -36em;
+    text-align: center;
+    border: 1px solid black;
+}
+*/
