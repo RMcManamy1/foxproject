@@ -6,8 +6,6 @@ main {
     text-align: center;
     color: #4f3222;
     background-color: #d4ac6e;
-    padding: 
-    
 }
 
 figure {
@@ -30,6 +28,8 @@ p {
     color: #4f3222;
     background-color: #d4ac6e;
     display: inline block;
+    line-height: 1.6em;
+    padding: .75em;
     
 }
 
