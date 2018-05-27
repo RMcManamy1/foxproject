@@ -1,4 +1,3 @@
-
 main {
     border: 2px dotted;
     font-family: "Merriweather", serif;
@@ -26,7 +25,6 @@ p {
     font-size: 1em;
     /*text-align: center; */
     color: #4f3222;
-    background-color: #d4ac6e;
     display: inline block;
     line-height: 1.6em;
     padding: .75em;
@@ -43,6 +41,14 @@ footer {
     text-align: center;
     color: #4f3222;
     background-color: #d4ac6e;
+}
+
+footer a:link{
+    color: #4f3222;
+}
+
+footer a:visited{
+    color: #4f3222;
 }
 
 footer::after {
@@ -117,16 +123,16 @@ tr, td {
 }
 
 a:link {
-    color:#838060;
+    color:#d4ac6e;
     
 }
 
 a:visited {
-    color:#838060;
+    color:#d4ac6e;
 }
 
 a:hover {
-    color: white;
+    color: #4f3222;
 }
 
 a:active{
@@ -168,7 +174,7 @@ cite {
     bottom: 0;
     font-style: italic;
     font-size: .75em;
-    background: white;
+    background: #7e4a35;
     opacity: .6;    
     text-align: center;
     color: black;
@@ -182,68 +188,3 @@ cite#main {
     font-size: .75em;
     background: none;
 }
-/*
-cite#conservation1 {
-    float: right;
-    border: none;
-    font-style: italic;
-    position: relative;
-    font-size: .75em;
-    color: white;
-    padding: .1em;
-    background: black;
-    opacity: .6;    
-    margin-top: 31em;
-    margin-left: 28em;
-    text-align: center;
-    border: 1px solid black;
-}
-
-cite#conservation2 {
-    float: right;
-    border: none;
-    font-style: italic;
-    position: absolute;
-    font-size: .75em;
-    color: white;
-    padding: .1em;
-    background: black;
-    opacity: .6;    
-    margin-top: 25em;
-    margin-left: 5em;
-    text-align: center;
-    border: 1px solid black;
-}
-
-cite#relationship1 {
-    float: right;
-    border: none;
-    font-style: italic;
-    position: absolute;
-    font-size: .75em;
-    color: white;
-    padding: .1em;
-    background: black;
-    opacity: .6;    
-    margin-top: 36.4em;
-    margin-left: -45em;
-    text-align: center;
-    border: 1px solid black;
-    z-index: 3
-}
-cite#relationship2 {
-    float: right;
-    border: none;
-    font-style: italic;
-    position: absolute;
-    font-size: .75em;
-    color: white;
-    padding: .1em;
-    background: black;
-    opacity: .6;    
-    margin-top: 36.4em;
-    margin-left: -36em;
-    text-align: center;
-    border: 1px solid black;
-}
-*/
