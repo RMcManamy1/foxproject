@@ -4,6 +4,30 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+    [class=genus]{
+        width: 100%;
+    }
+    [class=specieslist]{
+        width: 100%;
+    }
+    [class=genuscite]{
+        width: 100%;
+        font-size: .90em;
+    }
+    [class=species]{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    [cite]{
+        font-size: .90em;
+}
+
+}
+
+
 main {
     border: 2px dotted;
     font-family: "Merriweather", serif;
@@ -231,3 +255,4 @@ cite#main {
     text-align: center;
     color: black;
 }
+
