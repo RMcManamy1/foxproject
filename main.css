@@ -207,17 +207,18 @@ figure#inline {
     display: block;
     position: relative;
     border: none;
-    margin: auto;
+    margin: 10px;
     font-style: italic;
     background: white;
     float: left;
+    padding: 10px;
 }
 
 figure#inline2 {
     display: block;
     position: relative;
     border: none;
-    margin: auto;
+    margin: 10px;
     font-style: italic;
     background: white;
     float: right;
