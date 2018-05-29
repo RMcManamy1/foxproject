@@ -167,6 +167,11 @@ body {background-color: #8b6f47;
     border-radius: 5px;
     padding: 10px;
     margin: auto;
+    text-decoration: none;
+}
+
+a.navlink{
+    text-decoration: none;
 }
 
 .nav:hover{
@@ -178,7 +183,6 @@ body {background-color: #8b6f47;
 
 a:link {
     color:#d4ac6e;
-    text-decoration: none;
     
 }
 
