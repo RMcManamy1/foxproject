@@ -150,17 +150,34 @@ body {background-color: #8b6f47;
 #nav {
     font-family: "Merriweather", serif;
     color: #bbab9b;
-    background-color: #7e4a35;
+    background-color: #d4ac6e;
     text-align: center;
     border: 2px dotted;
     list-style-type: none;
     font-size: 1.5em;
-    margin: 0;
+    margin: auto;
 }
+
+.nav {
+    border: 2px solid #bbab9b;
+    background-color: #7e4a35;
+    color: #bbab9b;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+}
+
+.nav:hover{
+    background-color: #d4ac6e;
+}
+
 
 
 a:link {
     color:#d4ac6e;
+    text-decoration: none;
     
 }
 
@@ -182,6 +199,8 @@ figure#main {
     border: none;
     margin: auto;
     font-style: italic;
+    border: 2px dotted black;
+    border-top: none;
 }
 
 figure#inline {
@@ -256,4 +275,3 @@ cite#main {
     text-align: center;
     color: black;
 }
-
