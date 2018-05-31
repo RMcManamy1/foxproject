@@ -175,8 +175,8 @@ a.navlink{
 }
 
 .nav:hover{
-    background-color: #d4ac6e;
-    transition: 5s ease-out;
+    background-color: white;
+    transition: 2s ease-out;
 }
 
 
