@@ -99,7 +99,7 @@ footer a:hover{
 }
 
 footer::after {
-    content: url(foxicon.png);
+    content: url(images/foxicon.png);
     
 }
 
@@ -175,7 +175,7 @@ a.navlink{
 }
 
 .nav:hover{
-    background-color: white;
+    background-color: black;
     transition: 2s ease-out;
 }
 
